@@ -35,7 +35,7 @@ TARGET_LDFLAGS += -L$(STAGING_DIR)/usr/lib/libiconv-full/lib
 
 define Package/libhtp
   SECTION:=libs
-  CATEGORY:=Librarier
+  CATEGORY:=Libraries
   TITLE:=HTP lib
   DEPENDS:=+libiconv-full +zlib
 endef
